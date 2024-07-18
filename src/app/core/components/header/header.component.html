@@ -1,8 +1,12 @@
 <header>
   <img src="./assets/angular.svg" alt="Logo do Angular" />
   <ul>
-    <li>Home</li>
-    <li>Sobre</li>
+    <li>
+      <a [routerLink]="['']">Home</a>
+    </li>
+    <li>
+      <a [routerLink]="['sobre']">Sobre</a>
+    </li>
     <li>
       <button type="button" (click)="toggle()">
         <img
